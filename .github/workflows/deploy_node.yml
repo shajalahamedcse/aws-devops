@@ -1,7 +1,7 @@
 name: Node CI/CD
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "*" ]
 jobs:
   build:
     runs-on: express
