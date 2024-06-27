@@ -6,7 +6,7 @@ push:
 
 jobs:
 build:
-    runs-on: self-hosted
+    runs-on: express
     strategy:
     matrix:
         node-version: [18.x]
