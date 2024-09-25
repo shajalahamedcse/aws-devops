@@ -18,3 +18,4 @@ RUN echo "PORT=3000" > .env
 
 # Expose the port the app runs on
 EXPOSE 3000
+CMD ["node","index.js"]
